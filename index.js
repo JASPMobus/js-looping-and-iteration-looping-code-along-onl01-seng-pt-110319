@@ -8,3 +8,9 @@ function writeCards(arrayOfNames) {
   
   return ret
 }
+
+function countDown(fromThis) {
+  while fromThis >=0 {
+    console.log(fromThis)
+  }
+}
