@@ -12,5 +12,7 @@ function writeCards(arrayOfNames) {
 function countDown(fromThis) {
   while fromThis >=0 {
     console.log(fromThis)
+    
+    fromThis--
   }
 }
